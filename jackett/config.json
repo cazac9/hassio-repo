@@ -18,6 +18,7 @@
   "auth_api": true,
   "apparmor": false,
   "ingress": true,
+  "ingress_port":8889,
   "options": {
     "black_hole": "/share/blackhole"
   },
