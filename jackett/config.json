@@ -7,7 +7,7 @@
   "arch": ["armv7", "aarch64", "amd64"],
   "startup": "application",
   "boot": "auto",
-  "webui": "http://[HOST]:[PORT:8889]",
+  "webui": "http://[HOST]:[PORT:9118]",
   "map": [
     "config:rw",
     "share:rw",
@@ -15,10 +15,11 @@
   ],
   "hassio_api": true,
   "hassio_role": "default",
+  "host_netwrork": true,
+  "port": 7777,
   "auth_api": true,
   "apparmor": false,
   "ingress": true,
-  "ingress_port":8889,
   "options": {
     "black_hole": "/share/blackhole"
   },
@@ -26,10 +27,10 @@
     "black_hole": "str"
   },
   "ports" : {
-    "8889/tcp": null
+    "9117/tcp": null
   },
   "ports_description" : {
-    "8889/tcp": "Port for the web interface (not needed with ingress)"
+    "9117/tcp": "Port for the web interface (not needed with ingress)"
   },
   "image" : "sabuto/{arch}-hassio-jackett"
 }
