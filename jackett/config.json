@@ -15,7 +15,7 @@
   ],
   "hassio_api": true,
   "hassio_role": "default",
-  "host_netwrork": true,
+  "host_network": true,
   "port": 7777,
   "auth_api": true,
   "apparmor": false,
